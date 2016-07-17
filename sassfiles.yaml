@@ -1,0 +1,4 @@
+# SASS Files
+# destination: source
+
+dist/style.css: src/style.scss

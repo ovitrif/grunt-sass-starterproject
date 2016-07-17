@@ -1,0 +1,39 @@
+$blue: #88f;
+$white: whitesmoke;
+
+html {
+  height: 101%;
+  width: 100%;
+  overflow: hidden;
+  body {
+    font-size: 10px;
+    width: 100%;
+  }
+}
+
+.main {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  .panel-heading {
+    background: $blue;
+    color: $white;
+    h3 {
+      font-size: 2rem;
+    }
+  }
+  .panel-bottom {
+    background: §blue;
+    color: #white;
+    span {
+      font-size: 1rem;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  transition: transform .25s ease-in-out;
+  background: $white;
+}
+
